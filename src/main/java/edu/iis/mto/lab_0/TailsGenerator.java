@@ -7,7 +7,7 @@ public class TailsGenerator {
 
     public List<String> tails(String value) {
         ArrayList<String> listOfTails = new ArrayList<>(value.length());
-        for(int i = 0; i < value.length(); ++i){
+        for (int i = 0; i < value.length(); ++i) {
             listOfTails.add(value.substring(i));
         }
         listOfTails.add("");
